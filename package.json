@@ -1,0 +1,25 @@
+{
+  "name": "inline-script-webpack-plugin",
+  "version": "1.0.0",
+  "description": "a plugin of webpack to inline javascript into html with html-webpack-plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifmos/inline-script-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "inline",
+    "script"
+  ],
+  "author": "mos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifmos/inline-script-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/ifmos/inline-script-webpack-plugin#readme"
+}
