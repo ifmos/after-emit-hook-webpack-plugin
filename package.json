@@ -1,6 +1,6 @@
 {
   "name": "inline-script-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a plugin of webpack to inline javascript into html with html-webpack-plugin",
   "main": "index.js",
   "scripts": {
