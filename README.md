@@ -84,7 +84,3 @@ for index.html or template:
 </html>
 ```
 
-not available yet
-
-TODO:  
-[  ] name(s) will support regex and entry name
