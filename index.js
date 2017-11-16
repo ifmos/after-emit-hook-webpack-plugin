@@ -1,3 +1,4 @@
+const sourceMapUrl = require('source-map-url')
 module.exports = class InlineScriptWebpackPlugin {
   constructor(options) {
 
@@ -39,7 +40,8 @@ module.exports = class InlineScriptWebpackPlugin {
             let file = inlineChunk.files[0]
             if (compilation.assets[file]) {
               let asset = compilation.assets[file]
-              scripts.push({name: inlineChunk.name, source: `<script>${asset.source()}</script>`})
+              scripts.push({name: inlineChunk.name, source: `<script>${sourceMapUrl.removeFrom(asset.source())}</script>`})
+
               let index = assets.js.indexOf(assets.publicPath + file)
               if (index >= 0) {
                 assets.js.splice(index, 1)

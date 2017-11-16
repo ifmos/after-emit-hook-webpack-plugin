@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ifmos/inline-script-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/ifmos/inline-script-webpack-plugin#readme"
+  "homepage": "https://github.com/ifmos/inline-script-webpack-plugin#readme",
+  "dependencies": {
+    "source-map-url": "^0.4.0"
+  }
 }
