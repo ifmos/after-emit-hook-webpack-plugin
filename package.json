@@ -1,6 +1,6 @@
 {
   "name": "after-emit-hook-webpack-plugin",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "do something while after-emit",
   "main": "index.js",
   "scripts": {
